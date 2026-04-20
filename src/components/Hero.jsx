@@ -111,7 +111,7 @@ export default function Hero() {
             </p>
 
             <h1 className="text-[clamp(34px,4.8vw,54px)] font-bold tracking-[-0.04em] text-text-primary whitespace-pre-line">
-               {text}
+               {typedName}
                <span className="type-cursor" />
             </h1>
 
