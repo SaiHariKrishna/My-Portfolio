@@ -84,8 +84,7 @@ function useTypewriter(text, speed = 85) {
 }
 
 export default function Hero() {
-  const hi = useTypewriter("Hi,")
-  const name = useTypewriter("I'm Sai Hari Krishna", 85, hi.done)
+  const typedName = useTypewriter("Hi,\nI'm Sai Hari Krishna KV")
 
   return (
     <section className="relative min-h-[100svh] overflow-hidden pt-20 sm:pt-24">
@@ -112,7 +111,7 @@ export default function Hero() {
             </p>
 
             <h1 className="text-[clamp(34px,4.8vw,54px)] font-bold tracking-[-0.04em] text-text-primary">
-              {hi} {name}
+              {typedName}
               <span className="type-cursor" aria-hidden="true"></span>
             </h1>
 
