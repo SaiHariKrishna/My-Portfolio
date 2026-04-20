@@ -84,7 +84,7 @@ function useTypewriter(text, speed = 85) {
 }
 
 export default function Hero() {
-  const typedName = useTypewriter('Sai Hari Krishna KV')
+  const typedName = useTypewriter('Hi, I\'m Sai Hari Krishna KV')
 
   return (
     <section className="relative min-h-[100svh] overflow-hidden pt-20 sm:pt-24">
