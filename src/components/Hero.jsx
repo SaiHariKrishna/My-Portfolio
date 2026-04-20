@@ -101,12 +101,12 @@ export default function Hero() {
                 <span className="animate-ping absolute inset-0 rounded-full bg-accent opacity-60" />
                 <span className="relative h-2 w-2 rounded-full bg-accent" />
               </span>
-              <span className="text-[11px] font-semibold uppercase tracking-widest text-accent">
-                Open to opportunities
+              <span className="text-[11px] font-semibold uppercase tracking-widest text-black-600">
+                Open for opportunities
               </span>
             </div>
 
-            <p className="mb-4 text-[12px] font-semibold uppercase tracking-[0.22em] text-accent">
+            <p className="mb-4 text-[12px] font-semibold uppercase tracking-[0.22em] text-blue-600">
               Aspiring Software Engineer
             </p>
 
